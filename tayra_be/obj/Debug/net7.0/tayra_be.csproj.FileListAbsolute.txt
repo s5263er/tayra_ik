@@ -7,6 +7,7 @@
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/tayra_be.pdb
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/BouncyCastle.Crypto.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Google.Protobuf.dll
+/Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Humanizer.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/K4os.Compression.LZ4.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/K4os.Compression.LZ4.Streams.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/K4os.Hash.xxHash.dll
@@ -14,7 +15,9 @@
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
@@ -22,6 +25,7 @@
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Mono.TextTemplating.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/MySql.Data.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Ubiety.Dns.Core.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Zstandard.Net.dll
@@ -33,6 +37,7 @@
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/System.CodeDom.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/System.Drawing.Common.dll
 /Users/erdem/Desktop/ik_tayra/tayra_be/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll

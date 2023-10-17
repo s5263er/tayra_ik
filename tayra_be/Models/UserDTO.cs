@@ -36,21 +36,20 @@ namespace Tayra_IK.Models
     // DepartmentManager model
     public class DepartmentManager
     {
-        public int DepartmentManagerId { get; set; }
+        public string DepartmentManagerId { get; set; }
         public int DepartmentId { get; set; }
-        public int ManagerId { get; set; }
 
         // Navigation properties
         public Department Department { get; set; }
         public Worker Manager { get; set; }
+
     }
 
     // DepartmentChef model
     public class DepartmentChef
     {
-        public int DepartmentChefId { get; set; }
+        public string DepartmentChefId { get; set; }
         public int DepartmentId { get; set; }
-        public int ChefId { get; set; }
 
         // Navigation properties
         public Department Department { get; set; }

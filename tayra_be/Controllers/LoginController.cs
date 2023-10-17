@@ -48,7 +48,6 @@ namespace Tayra_IK.Controllers
                 Console.WriteLine("user role:" + role);
                 return Ok(new { token, role });
             }
-                        Console.WriteLine("girildi23");
 
             return Unauthorized("Kullanci ismi veya sifre yanlis.");
         }
@@ -65,8 +64,6 @@ namespace Tayra_IK.Controllers
 
             // Compare the plaintext input password with the stored plaintext password
             bool isPasswordValid = password == user.Password;
-            Console.WriteLine("password" + password);
-            Console.WriteLine("user password" + user.Password);
 
             if (isPasswordValid)
             {

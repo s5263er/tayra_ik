@@ -25,15 +25,21 @@ function Login() {
           },
         }
       );
-      console.log('Request:', response.config);  // Log the request
-      console.log('Response:', response.data);   // Log the response
-    
+
       if (response.status === 200) {
         const { token, role } = response.data;
 
         localStorage.setItem('jwtToken', token);
+        localStorage.setItem('userRole', role);
 
         console.log('Login successful');
+
+        // Redirect based on user role
+        if (role === 'HR') {
+          navigate('/hr-home'); // Adjust the route to your HR home page
+        } else {
+          navigate('/default-home'); // Adjust the route to your default home page
+        }
       } else {
         console.error('Login failed');
       }
@@ -41,6 +47,7 @@ function Login() {
       console.error('Login error', error);
     }
   };
+
 
   return (
     <div className="login-page">

@@ -1,0 +1,125 @@
+/* HR_Home.css */
+
+.hr-home {
+    display: flex;
+    height: 100vh;
+  }
+  
+ 
+  .sidebar-open {
+    transform: translateX(0);
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .sidebar button {
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .sidebar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px; /* Added margin at the top */
+  }
+  
+  .sidebar a {
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    margin: 16px 0; /* Adds equal spacing above and below each link */
+  }
+  
+  .sidebar a:hover {
+    color: #ccc; /* Hover color (light gray in this example) */
+}
+  
+.content-layout {
+  display: flex;
+  flex: 1; /* Take remaining space */
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #333; /* Match the app bar's background color */
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Ensure the layout takes the full height of the viewport */
+}
+
+  
+.app-bar {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+  
+  .app-title {
+    margin: 0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5; /* Set background color for the content area */
+  }
+  
+  .calendar-container {
+    height: 500px; /* Set a fixed height for the calendar container */
+    background-color: white; /* Set background color for the calendar */
+    border: 1px solid #ccc; /* Add a greyish border */
+    padding: 20px; /* Add some padding to the calendar container */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+  
+  .toggle-btn {
+    display: none; /* Hide the toggle button */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .sidebar {
+      width: 60px;
+    }
+  
+    .sidebar-open {
+      width: 200px;
+    }
+  
+    .content {
+      margin-left: 0;
+    }
+  
+    .toggle-btn {
+      display: block;
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 999;
+    }
+  }
+  
